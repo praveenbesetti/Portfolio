@@ -130,8 +130,8 @@ export const projects = [{
 
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/Trackify",
-        webapp: "https://65e9c6db77c69312b5f016be--comfy-sunshine-cf8bca.netlify.app/",
+        github: "https://github.com/praveenbesetti/Drive-in-cars",
+        webapp: "https://65e9c65a8cb096123f79e7dc--phenomenal-starlight-d32a32.netlify.app/",
     },
     {
         id: 0,

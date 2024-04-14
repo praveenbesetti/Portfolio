@@ -131,13 +131,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('', '', form.current, '')
-      .then((result) => {
-        setOpen(true);
-        form.current.reset();
-      }, (error) => {
-        console.log(error.text);
-      });
+    console.log(form.current);
+     form.current.reset();
+    // emailjs.sendForm('', '', form.current, '')
+    //   .then((result) => {
+    //     setOpen(true);
+       
+    //   }, (error) => {
+    //     console.log(error.text);
+    //   });
   }
 
 
@@ -153,7 +155,7 @@ const Contact = () => {
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" style={{cursr:'pointer'}} />
+          <ContactButton type="submit" value="Send" style={{cursor:'pointer'}} />
         </ContactForm>
         <Snackbar
           open={open}

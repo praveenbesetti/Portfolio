@@ -2,6 +2,8 @@ export const Bio = {
     name: "B S V Praveen",
     roles: [
         "Full Stack Developer",
+        "Web Developer",
+        "Java Developer"
 
     ],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -36,6 +38,10 @@ export const skills = [{
                 name: "Bootstrap",
                 image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
             },
+            {
+                name: "tailwind css",
+                image: "/img/tailwind.jpeg",
+            },
 
 
         ],
@@ -53,6 +59,10 @@ export const skills = [{
             {
                 name: "MySQL",
                 image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+            },
+            {
+                name: "Rest Api",
+                image: "/img/rest.png",
             },
 
         ],
@@ -117,6 +127,30 @@ export const education = [{
 ];
 
 export const projects = [{
+        id: 12,
+        title: "Full-Stack-Application",
+        date: "Apr 2024 - Apr 2024",
+        description: "My full-stack application, built using React for the frontend, CSS and Tailwind for styling, and integrated with Email.js for email functionality, is powered by Node.js and SQL for the backend, featuring RESTful APIs for seamless data exchange.",
+        image: "/img/dribbble.png",
+        tags: ["React", "Tailwind css", "css", "Email.js", "Rest Api", "Node js", "express js", "PostgreSql"],
+        category: "Full Stack",
+        github: "https://github.com/praveenbesetti/fullstack-react",
+        webapp: "https://6618f0ae68d81000086198a4--earnest-concha-c3d6d7.netlify.app/",
+
+    },
+    {
+        id: 10,
+        title: "Web-Application",
+        date: "Apr 2024 - Apr 2024",
+        description: "The web application I created seamlessly integrates React components with Tailwind CSS for a modern, responsive design, enhanced further with custom CSS tweaks for optimal user experience across devices",
+        image: "/img/calendly.png",
+        tags: ["React", "Tailwind css", "css"],
+        category: "web app",
+        github: "https://github.com/praveenbesetti/Calendly",
+        webapp: "https://65e9c6db77c69312b5f016be--comfy-sunshine-cf8bca.netlify.app/",
+
+    },
+    {
         id: 9,
         title: "Car-Rental ",
         date: "Oct 2023 - Nov 2023",

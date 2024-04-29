@@ -147,7 +147,7 @@ export const projects = [{
         tags: ["React", "Tailwind css", "css"],
         category: "web app",
         github: "https://github.com/praveenbesetti/Calendly",
-        webapp: "https://65e9c6db77c69312b5f016be--comfy-sunshine-cf8bca.netlify.app/",
+        webapp: "https://661a6c2476e84900084246f5--resplendent-begonia-79f49b.netlify.app/",
 
     },
     {

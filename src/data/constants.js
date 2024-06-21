@@ -8,7 +8,7 @@ export const Bio = {
     ],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/praveenbesetti",
-    resume: "https://drive.google.com/file/d/1rDHkvyI93ceOsyjco0VqhDwjEXm-yEHP/view",
+    resume: "https://drive.google.com/file/d/1ffi7AzYygRbMUy8v0EgreV2q1DJcD9lu/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/besetti-praveen-691207267/",
 
     insta: "https://www.instagram.com/kingofgod382/?igsh=MWNhdXVtdWh3aXNsNg%3D%3D",
